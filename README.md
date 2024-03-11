@@ -74,12 +74,11 @@ class RandomCompression(Compression):
 See [PyTorch Wavelets](https://pywavelets.readthedocs.io/en/latest/ref/wavelets.html) for the list of available built-in wavelet families.
 
 
-## Usage
+## Compressing activation maps
 
+### A simple network
 
-### A simple example
-
-Consider a simple network below:
+Consider a network below:
 
 ```python
 class Net(nn.Module):
@@ -229,6 +228,15 @@ class CompressedTransformer(nn.Module):
 See [models](./models) for more examples.
 
 
+
+## Allocated memory
+
+
+
+## Training
+
+
+
 ## Results
 
 ![](docs/table2.png)
@@ -251,6 +259,14 @@ See [models](./models) for more examples.
 ```
 
 ## Acknowledgements
+
+We are grateful for the financial support obtained from the Cancer
+Research Foundation in Northern Sweden (LP 18-2182 and LP 22-2319), the
+Västerbotten regional county, and from Karin and Krister Olsson. The
+computations were enabled by resources provided by the Swedish National
+Infrastructure for Computing at the High Performance Computer Center
+North in Umeå, Sweden, partially funded by the Swedish Research Council
+through grant agreement no. 2018-05973.
 
 
 ## Contact for Issues
