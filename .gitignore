@@ -1,0 +1,39 @@
+*.nii.gz
+*.nii
+.idea
+*.zip
+HGG/
+LGG/
+.ipynb_checkpoints
+brats/models
+*.pkl
+data.hdf5
+*.log
+*.h5
+*.ipynb
+*.pyc
+*.json
+test_dir
+*.hdr
+*.img
+*.out
+*.xlsx*
+*.gif
+*.tif
+*.xlsx
+*.txt
+*.pickle
+!compile.csv
+raw/
+data/
+database/data/
+database/checkpoint/
+database/logs*/
+logs/
+# *.csv
+*.jpg
+*.pth
+*.tar
+# *.pdf
+*.yaml
+# *.csv*
