@@ -1,4 +1,4 @@
-<!-- ## TO BE UPDATED -->
+## TO BE UPDATED
 
 ## Compressing the Activation Maps in Deep Neural Networks and Its Regularizing Effect
 
@@ -47,13 +47,13 @@ conda activate compress
 
 We have provided several [compression methods](./engine/compression.py) as below:
 
- - NoCompression
- - RandomCompression
- - ThresholdingCompression
- - DCTCompression
- - WaveletTransformCompression
+ - `NoCompression`
+ - `RandomCompression`
+ - `ThresholdingCompression`
+ - `DCTCompression`
+ - `WaveletTransformCompression`
 
-You can propose your own compression method as an example below. PyTorch provides an [API](https://pytorch.org/tutorials/intermediate/autograd_saved_tensors_hooks_tutorial.html) to control how saved tensors should be packed/unpacked.
+PyTorch provides an [API](https://pytorch.org/tutorials/intermediate/autograd_saved_tensors_hooks_tutorial.html) to control how saved tensors should be packed/unpacked. You can implement your own compression method as an example below. 
 
 
 ```python
@@ -271,7 +271,7 @@ through grant agreement no. 2018-05973.
 
 ## Contact for Issues
 
-If you have any questions, don't hesitate to open an issue or reach out to me at: [minh.vu@umu.se](minh.vu@umu.se).
+If you have any questions, don't hesitate to open an issue or reach out to me at: [minh.vu@umu.se](mailto:minh.vu@umu.se).
 
 
 ## License
