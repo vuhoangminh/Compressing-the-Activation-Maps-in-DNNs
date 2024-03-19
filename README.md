@@ -252,13 +252,13 @@ See [models](./models) for more examples.
 
 ```
 @article{
-	anonymous2023compressing,
-	title={Compressing the Activation Maps in Deep Convolutional Neural Networks and Its Regularizing Effect},
-	author={Anonymous},
-	journal={Submitted to Transactions on Machine Learning Research},
-	year={2023},
-	url={https://openreview.net/forum?id=s1qh12FReM},
-	note={Under review}
+    vu2024compressing,
+    title={Compressing the Activation Maps in Deep Convolutional Neural Networks and Its Regularizing Effect},
+    author={Minh H. Vu and Anders Garpebring and Tufve Nyholm and Tommy L{\"o}fstedt},
+    journal={Transactions on Machine Learning Research},
+    issn={2835-8856},
+    year={2024},
+    url={https://openreview.net/forum?id=s1qh12FReM},
 }
 ```
 
